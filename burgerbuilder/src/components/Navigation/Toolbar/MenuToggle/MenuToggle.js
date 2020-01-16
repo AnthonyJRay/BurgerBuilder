@@ -4,8 +4,10 @@ import classes from './MenuToggle.module.css';
 
 const menutoggle = props => {
   return (
-    <div className={classes.Toggler} onClick={props.menuToggler}>
-      Menu
+    <div className={classes.DrawerToggle} onClick={props.menuToggler}>
+      <div></div>
+      <div></div>
+      <div></div>
     </div>
   );
 };
